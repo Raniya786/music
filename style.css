@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.div1{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://st3.depositphotos.com/10654668/15605/i/450/depositphotos_156050314-stock-photo-headphones-with-red-heart-sign.jpg);
+    background-size: cover;
+    background-position: center; 
+    position: relative;
+}
+.div2{
+    width: 85%;
+    margin:auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 120px;
+    cursor: pointer;
+}
+.div2 ul li{
+    list-style: none;
+    display:  inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.div2 ul li a{
+    text-decoration: none;
+    color: red;
+    margin-top: 0%;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 20px;
+    display: flex;
+    height: 50px;
+    padding: 5px 3px 5px;
+    text-decoration: none;
+}
+.div2 ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.div2 ul li:hover::after{
+    width: 100%;
+    position: absolute;
+}
+.div3{
+    width: 100%;
+    position: absolute;
+    top: 30%;
+}
+.left{
+    width: 6%;
+}
+.left h1{
+    font-size: 100px;
+    color: #fff;
+    line-height: 110px;
+    float: left;
+}
+.right{
+    float: right;
+    margin-right: 6%;
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+}
+.right p{
+    font-size: 18px;
+    color:blue;
+    margin-right: 15px;
+    margin-top: 25%;
+    font-weight: bold;
+}
+#icon{
+    width: 80px;
+    cursor: pointer;
+}
+ 
